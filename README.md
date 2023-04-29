@@ -1,1 +1,3 @@
 # llm-fun
+
+A collection of fun LLM interactions I encounter...
