@@ -103,32 +103,6 @@ def complete(model, messages):
   ).choices[0].message.content
 
 
-"""
-def main():
-  actions = {'PYTHON': run_python_code, 'CALCULATE': run_calculation}
-  messages = [{'role': 'system', 'content': SYSTEM_MSG}]
-  while True:
-    user = input('\n\nUser: ')
-    if user.strip() == '\end':
-      print('\nChat finished!')
-      break
-    messages.append({'role': 'user', 'content': user})
-    print('\nAda: ', end='')
-    response = complete(messages)
-    print(response, end='')
-    messages.append({'role': 'assistant', 'content': response})
-    call = parse(response)
-    if call:
-      action, query = call
-      if action in actions:
-        result = 'Result from API call:\n\n' + str(actions[action](query))
-      else:
-        result = 'Invalid API call!'
-      print(f'\n\n{result}', end='')
-      messages.append({'role': 'API', 'content': result})
-"""
-
-
 def main(model):
   actions = {'PYTHON': run_python_code, 'CALCULATE': run_calculation} 
   messages = [{'role': 'system', 'content': SYSTEM_MSG}]
