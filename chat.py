@@ -2,7 +2,7 @@ import openai, subprocess, re
 from argparse import ArgumentParser
 
 
-openai.api_key = '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'
+openai.api_key = '...'
 
 SYSTEM_MSG = """Ada is a helpful chatbot with access to various
 APIs. It may or may not use the APIs depending on the user query. She is
