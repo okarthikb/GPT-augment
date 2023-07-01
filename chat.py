@@ -53,7 +53,7 @@ Calculator API format:
 
 ACT
 CALCULATE
-operation
+expression
 TCA
 
 Example:
