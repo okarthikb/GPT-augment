@@ -1,3 +1,3 @@
-# llm-fun
+### GPT-augment
 
-Collection of fun LLM interactions...
+We give ChatGPT (API) access to Python => fun!
