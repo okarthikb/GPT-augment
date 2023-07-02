@@ -20,4 +20,4 @@ Lorentz attractor generated in `interaction.md`:
   <img src='https://github.com/okarthikb/GPT-augment/assets/86470305/1f1606de-594c-4e98-80c2-4cc1954280f0'/>
 </div>
 
-Set `OPENAI_API_KEY` and `COHERE_API_KEY` environment variables. Then do `python3 chat.py` if you have GPT-4 API access (recommended) or `python3 chat.py --model 'gpt-3.5-turbo-0613'` otherwise. To set max number of attempts it makes to fix an error, do `python3 chat.py --max_retries 10` (default 6).
+Do `export OPENAI_API_KEY=YOUR_KEY` and `export COHERE_API_KEY=YOUR_KEY` first to set environment variables. Then do `python3 chat.py` if you have GPT-4 API access (recommended) or `python3 chat.py --model 'gpt-3.5-turbo-0613'` otherwise. To set max number of attempts it makes to fix an error, do `python3 chat.py --max_retries 10` (default 6).
